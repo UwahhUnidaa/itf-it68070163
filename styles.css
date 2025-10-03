@@ -1,0 +1,9 @@
+nav {
+    background-color: darkseagreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body {
+    margin: 0;
+}
