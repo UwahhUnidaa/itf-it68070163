@@ -4,13 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ITF web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .button {
+            background-color: #2c2121;
+            padding: 15px 50px;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
     <nav>
-        <p>68070163</p>
-        <h2>ITF Website</h2>
-        <p>Week 14</p>
+        <div class="nav-container">
+            <p>68070163</p>
+            <h2>ITF Website</h2>
+            <p>Week 14</p>
+        </div>
     </nav>
     <head class="header">
         <div class="header-container">
@@ -21,7 +39,9 @@
             </div>
         </div>
     </head>
-    <textarea name="recent information" id="information" style="width: 1700px; height: 500px;"></textarea>
+    <div class="box">
+        <textarea name="recent information" id="information" style="width: 1300px; height: 300px; padding: 12px; border: 3px solid rgb(226, 133, 66); border-radius: 10px; font-size: 16px;"></textarea>
+    </div>
     <div class="money_data">
         <div class="account_overview">
             <h2>Account Overview</h2>
@@ -29,7 +49,7 @@
                 <img src="pic/pic2.png" alt="" width="200px" height="200px">
                 <div class="account_information">
                     <h3>Account Information</h3>
-                    <p>Name : aofho</p>
+                    <p>Name : Jahoda</p>
                     <p>Type : Savings Account</p>
                 </div>
             </div>
@@ -40,7 +60,7 @@
                     <h3>Balance Information</h3>
                     Current account: <input type="number" id="myinput" value="0"><br>
                     Current cash balance: <input type="number" id="myinput" value="0"><br>
-                    <button>Change</button>
+                    <a href="#" class="button">Change</a>
                 </div>
             </div>
             
@@ -54,7 +74,7 @@
                             <option value="withdraw">Withdraw</option>
                         </select>
                     <input type="number" id="myinput" value="0"><br>
-                    <button>Proceed</button>
+                    <a href="#" class="button">Proceed</a>
                     </form>
                 </div>
             </div>
@@ -72,7 +92,7 @@
                     <option value="USD">USD</option>
                     <option value="THB">THB</option>
                 </select>
-                <button>Convert</button>
+                <a href="#" class="button">Convert</a>
                 </form>
             </div>
         </div>

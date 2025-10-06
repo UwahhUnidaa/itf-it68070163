@@ -1,8 +1,14 @@
 nav {
-    background-color: darkseagreen;
+    background-color: rgb(53, 228, 182);
+}
+
+.nav-container {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .header-container {
@@ -14,18 +20,26 @@ nav {
     margin-top: 70px;
 }
 
+.box {
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
 body {
     margin: 0;
-}
-
-textarea {
-    margin-left: 100px;
-    display: flex;
-    justify-content: center;
+    background-color:  #fffb90;
+    font-family: "Gugi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(53, 39, 39);
 }
 
 .money_data {
     display: flex;
     flex-direction: row;
+}
+
+.account_overview {
+    margin-left: 350px;
+    margin-right: 200px;
 }
 
