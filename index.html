@@ -13,16 +13,20 @@
         <p>Week 14</p>
     </nav>
     <head class="header">
-        <div class="title">
-            <h1>ITF Simple Bank</h1>
-            <p>Welcome to my first HTML + CSS + JS website!</p>
+        <div class="header-container">
+            <img src="pic/pic1.png" alt="" width="200px" height="200px">
+            <div class="title">
+                <h1>ITF Simple Bank</h1>
+                <p>Welcome to my first HTML + CSS + JS website!</p>
+            </div>
         </div>
     </head>
-    <textarea name="recent information" id="information" cols="30" rows="10"></textarea>
+    <textarea name="recent information" id="information" style="width: 1700px; height: 500px;"></textarea>
     <div class="money_data">
         <div class="account_overview">
             <h2>Account Overview</h2>
             <div class="info1">
+                <img src="pic/pic2.png" alt="" width="200px" height="200px">
                 <div class="account_information">
                     <h3>Account Information</h3>
                     <p>Name : aofho</p>
@@ -31,6 +35,7 @@
             </div>
 
             <div class="info2">
+                <img src="pic/pic3.png" alt="" width="200px" height="200px">
                 <div class="balance_information">
                     <h3>Balance Information</h3>
                     Current account: <input type="number" id="myinput" value="0"><br>
@@ -40,20 +45,35 @@
             </div>
             
             <div class="info3">
+                <img src="pic/pic4.png" alt="" width="200px" height="200px">
                 <div class="bank_operation">
                     <h3>Bank Operation</h3>
-                    Current account: <input type="number" id="myinput" value="0"><br>
+                    <form>
+                        <select name="type" id="type">
+                            <option value="deposit">Deposit</option>
+                            <option value="withdraw">Withdraw</option>
+                        </select>
+                    <input type="number" id="myinput" value="0"><br>
                     <button>Proceed</button>
+                    </form>
                 </div>
             </div>
         </div>
         <div class="financial_tool">
+            <h2>Financial Tools</h2>
             <div class="info4">
+                <img src="pic/pic5.png" alt="" width="200px" height="200px">
+                <form>
                 <h3>Currency Converter</h3>
                 Input balance: <input type="number" id="myinput" value="0"><br>
                 Output balance: <input type="number" id="myinput" value="0"><br>
-                Input currency: <input type="number" id="myinput" value="0">
+                Input currency: 
+                <select name="currency" id="currency">
+                    <option value="USD">USD</option>
+                    <option value="THB">THB</option>
+                </select>
                 <button>Convert</button>
+                </form>
             </div>
         </div>
     </div>

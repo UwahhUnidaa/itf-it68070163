@@ -4,6 +4,28 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+
+.header-container {
+    display: flex;
+    margin-left: 100px;
+}
+
+.title {
+    margin-top: 70px;
+}
+
 body {
     margin: 0;
 }
+
+textarea {
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.money_data {
+    display: flex;
+    flex-direction: row;
+}
+
